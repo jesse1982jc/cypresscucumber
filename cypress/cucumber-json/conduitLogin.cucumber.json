@@ -1,0 +1,89 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Conduit Login Functionality",
+    "line": 1,
+    "id": "conduit-login-functionality",
+    "tags": [],
+    "uri": "conduitLogin.feature",
+    "elements": [
+      {
+        "id": "conduit-login-functionality;login-and-logout-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login and Logout with Valid Credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on the login page",
+            "result": {
+              "status": "passed",
+              "duration": 1408000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "jcjchuhu2@gmail.com",
+                      "abcd1234"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User login with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1083000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User click on the settings button",
+            "result": {
+              "status": "passed",
+              "duration": 941000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User click on the logout button",
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User should be routed back to login page",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
